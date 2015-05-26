@@ -44,6 +44,9 @@ Nehmt euren lieblings Editor und cloned das Projekt mit dem Tag `init_project`
 
 `git checkout -b initial_project_branch init_project`
 
+4. Ordner in Java-IDE einbiden
+5. Fügt die "lib/Tinkerforge.jar" zu dem Build-Path hinzu.
+
 
 # Kurze Beschreibung des Projekts
 
