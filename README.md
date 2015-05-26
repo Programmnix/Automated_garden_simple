@@ -6,11 +6,11 @@
 
 Die Präsentation finden Sie hier: [Präsentation](https://docs.google.com/presentation/d/1ga7UCL06HEAiya0m1iGdhdYJRIMx_e2CzU5-GaaTcLM/edit?usp=sharing)
 
-Dieses Projekt zeigt, wie einfach es ist mit Tinkerforge-Modulen Hardware anzusteuern. Hier wird sich auf die [Java-API-Bindings](www.tinkerforge.com/de/doc/Software/API_Bindings_Java.html) von Tinkerforge bezogen, aber es ist genau so einfach andere unterstüzte Programmiersprachen zu verwenden.
+Dieses Projekt zeigt, wie einfach es ist, mit Tinkerforge-Modulen Hardware anzusteuern. Hier wird sich auf die [Java-API-Bindings](www.tinkerforge.com/de/doc/Software/API_Bindings_Java.html) von Tinkerforge bezogen, aber es ist genau so einfach andere unterstützte Programmiersprachen zu verwenden.
 
 Ziel dieser Übung ist es, einen Kräutergarten zu bewässern.
 
-# Anforderungen an den Kräutergaren
+# Anforderungen an den Kräutergarten
 
 In den Anforderungen ist definiert, welche Hardware verwendet wird und was die Software können soll.
 
