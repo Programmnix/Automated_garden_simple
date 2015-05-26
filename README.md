@@ -6,9 +6,9 @@
 
 Die Präsentation finden Sie hier: [Präsentation](https://docs.google.com/presentation/d/1ga7UCL06HEAiya0m1iGdhdYJRIMx_e2CzU5-GaaTcLM/edit?usp=sharing)
 
-Dieses Projekt zeigt, wie einfach es ist mit Tinkerforge-Modulen Hardware anzusteuern. Hier wird sich auf die [Java-API-Bindings](www.tinkerforge.com/de/doc/Software/API_Bindings_Java.html) von Tinkerforge bezogen, aber es ist genau so einfach andere unterstütze Programmiersprachen zu verwenden.
+Dieses Projekt zeigt, wie einfach es ist mit Tinkerforge-Modulen Hardware anzusteuern. Hier wird sich auf die [Java-API-Bindings](www.tinkerforge.com/de/doc/Software/API_Bindings_Java.html) von Tinkerforge bezogen, aber es ist genau so einfach andere unterstüzte Programmiersprachen zu verwenden.
 
-Ziel dieser Übung ist es ein Kräutergarten zu bewässern.
+Ziel dieser Übung ist es, einen Kräutergarten zu bewässern.
 
 # Anforderungen an den Kräutergaren
 
@@ -23,14 +23,14 @@ In den Anforderungen ist definiert, welche Hardware verwendet wird und was die S
 ## Software Kriterien
 
 1. Steuern der Pumpe
-2. Auslesen des Feuchtigkeitswert
-3. Schalten der Pumpe anhand des Feuchtigkeitswert
+2. Auslesen des Feuchtigkeitswertes
+3. Schalten der Pumpe anhand des Feuchtigkeitswertes
 4. (Optional) Zeitgesteuertes Pumpen schalten
 
 
 # Programmierübung
 
-Dies Projekt enthält den fertigen Quelltext der Programmierübung. Der Ausganspunkt, der Programmierübung ist mit dem Tag "init_project" versehen, welcher auch als neuer Branch ausgecheckt wird.
+Dieses Projekt enthält den fertigen Quelltext der Programmierübung. Der Ausganspunkt der Programmierübung ist mit dem Tag "init_project" versehen, welcher auch als neuer Branch ausgecheckt wird.
 
 
 ## Vorraussetzungen
@@ -40,18 +40,18 @@ Dies Projekt enthält den fertigen Quelltext der Programmierübung. Der Ausgansp
 
 ## Übung initialisieren
 
-Nehmt euren lieblings Editor und cloned das Projekt mit dem Tag `init_project`
+Nehmt euren Lieblingseditor und cloned das Projekt mit dem Tag `init_project`
 
 1. Projekt clonen via git
 
 
 `git clone https://github.com/Programmnix/Automated_garden_simple.git`
 
-2. Ins Verzeichniss wechseln
+2. Ins Verzeichnis wechseln
 
 `cd Automated_garden_simple`
 
-3. Den Tag auschecken als initiales Projekt
+3. Den Tag als initiales Projekt auschecken
 
 `git checkout -b initial_project_branch init_project`
 
@@ -72,7 +72,7 @@ Package: de.dominik_klotz.dhbw.automated_garden
 * Controller.java
   * Steuert anhand des Messwertes die Pumpe	
 * Hygrometer.java
-  * Soll die Feuchtigkeit messen und zurückgebe via Interface
+  * Soll die Feuchtigkeit messen und via Interface zurückgeben
 * PumpeControl.java
   * Pumpe anschalten, ausschalten und einsehen
 * MainClass.java
