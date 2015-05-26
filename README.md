@@ -10,7 +10,7 @@ Dieses Projekt zeigt, wie einfach es ist mit Tinkerforge-Modulen Hardware anzust
 
 Ziel dieser Übung ist es ein Kräutergarten zu bewässern.
 
-# Anforderungen
+# Anforderungen an den Kräutergaren
 
 In den Anforderungen ist definiert, welche Hardware verwendet wird und was die Software können soll.
 
@@ -27,7 +27,18 @@ In den Anforderungen ist definiert, welche Hardware verwendet wird und was die S
 3. Schalten der Pumpe anhand des Feuchtigkeitswert
 4. (Optional) Zeitgesteuertes Pumpen schalten
 
-# Übung initialisieren
+
+# Programmierübung
+
+Dies Projekt enthält den fertigen Quelltext der Programmierübung. Der Ausganspunkt, der Programmierübung ist mit dem Tag "init_project" versehen, welcher auch als neuer Branch ausgecheckt wird.
+
+
+## Vorraussetzungen
+
+* Java-IDE
+* Java-Runtime
+
+## Übung initialisieren
 
 Nehmt euren lieblings Editor und cloned das Projekt mit dem Tag `init_project`
 
@@ -54,17 +65,19 @@ Nehmt euren lieblings Editor und cloned das Projekt mit dem Tag `init_project`
 [Source.zip hier](https://github.com/Programmnix/Automated_garden_simple/archive/init_project.zip)
 
 
-# Kurze Beschreibung des Projekts
+## Init-Projekt Übersicht
 
 Package: de.dominik_klotz.dhbw.automated_garden
 
 * Controller.java
   * Steuert anhand des Messwertes die Pumpe	
 * Hygrometer.java
-  * Soll die Feuchtigkeit messen und zurückgebe
+  * Soll die Feuchtigkeit messen und zurückgebe via Interface
 * PumpeControl.java
-   * Pumpe anschalten, ausschalten und einsehen
-   
+  * Pumpe anschalten, ausschalten und einsehen
+* MainClass.java
+  * Ruft den Controller auf 
+ 
 
 # Programmieren
 
