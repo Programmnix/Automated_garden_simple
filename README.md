@@ -14,7 +14,7 @@ Ziel dieser Übung ist es, einen Kräutergarten zu bewässern.
 
 In den Anforderungen ist definiert, welche Hardware verwendet wird und was die Software können soll.
 
-## Hardware Vorraussetzungen
+## Hardware Voraussetzungen
 
 1. [Master Brick](http://www.tinkerforge.com/de/doc/Hardware/Bricks/Master_Brick.html)
 2. [Moisture Bricklet](http://www.tinkerforge.com/de/doc/Hardware/Bricklets/Moisture.html)
@@ -33,7 +33,7 @@ In den Anforderungen ist definiert, welche Hardware verwendet wird und was die S
 Dieses Projekt enthält den fertigen Quelltext der Programmierübung. Der Ausganspunkt der Programmierübung ist mit dem Tag "init_project" versehen, welcher auch als neuer Branch ausgecheckt wird.
 
 
-## Vorraussetzungen
+## Voraussetzungen
 
 * Java-IDE
 * Java-Runtime
